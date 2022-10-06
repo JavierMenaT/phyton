@@ -10,10 +10,12 @@ p=float(input("Density of the fluid (in Kg/m^3, 1.3 for air, 1000 for water): ")
 A=float(input("Cross sectional area (in m^2): "))
 C=float(input("Drag constant (0.5 for sphere, 1.1 for cylinder): "))
 print()
-c=1/2*p*A*C
+
+c = 1 / 2 * p * A * C
+#first formula
 velocity=(math.sqrt((m * g) / c)) * (1 - math.exp((-math.sqrt(m  *g * c) / m) * t))
 
-#formula usando el número e y los operadores al cuadrado
+#fórmula usando el número e y los operadores para elevar a una potencia
 velocity2=(math.sqrt((m * g ) / c)) * (1 - math.e**((-math.sqrt(m * g * c) / m) * t))
 #e=math.exp(2)
 
