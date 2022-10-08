@@ -17,12 +17,12 @@ print()
 subtotal=child_meal*number_children+adult_meal*number_adults
 subtotal_with_tax=(subtotal*sale_tax)/100
 total=subtotal+subtotal_with_tax
-print(f"Subtotal: ${subtotal}")
-print(f"Sales Tax: ${subtotal_with_tax}")
-print(f"Total: ${total}")
+print(f"Subtotal: ${subtotal:.2f}")
+print(f"Sales Tax: ${subtotal_with_tax:.2f}")
+print(f"Total: ${total:.2f}")
 
 print()
 #show the pay and change
 payment_amount=float(input("What is the payment amount: $"))
 change=payment_amount-total
-print(f"Change: ${change}")
+print(f"Change: ${change:.2f}")
