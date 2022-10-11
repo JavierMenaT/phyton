@@ -22,4 +22,4 @@ velocity2=(math.sqrt((m * g ) / c)) * (1 - math.e**((-math.sqrt(m * g * c) / m) 
 print(f"The inner value of c is: {c:.3f}")
 print(f"The velocity after {t} seconds is: {velocity:.3f} m/s")
 print(f"The velocity 2 after {t} seconds is: {velocity2:.4f} m/s")
-#end
+#end of file
