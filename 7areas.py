@@ -11,6 +11,12 @@ square=int(side)
 area_square=str(square*square)
 print("The area of the square is: "+area_square)
 """
+"""
+File:  Calculation of areas
+Author: Javier Mena
+Class: CSE 110
+Number: 7
+"""
 #final solution area of the square
 from turtle import width
 print("AREA OF A SQUARE")

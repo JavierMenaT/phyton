@@ -1,3 +1,10 @@
+"""
+File: Velocity calculator
+Author: Javier Mena
+Class: CSE 110
+Number: 10
+"""
+
 from cmath import sqrt
 import math
 
