@@ -1,4 +1,4 @@
-#---------------------------Esta mi solución------------------------ 
+#---------------------------THIS IS MY SOLUTION------------------------ 
 nota=int(input("What is your grade porcent? "))
 
 if nota >= 90:
@@ -17,22 +17,29 @@ if nota >=70:
 else:
     print("Stay focus and you'll get it next time")
 
-#---------------------otra solución---------------------------------
-dato=int(input("What is your grade porcent? "))
+#---------------------TEACHER SOLUTION---------------------------------
+grade=int(input("What is your grade porcent? "))
 
-if dato >= 90:
-    letra = "A"
-elif dato >= 80:
-    letra = "B"
-elif dato >= 70:
-    letra = "C"
-elif dato >= 60:
-    letra = "D"
+if grade >= 90:
+    letter = "A"
+elif grade >= 80:
+    letter = "B"
+elif grade >= 70:
+    letter = "C"
+elif grade >= 60:
+    letter = "D"
 else:
-    letra = "F"  
-# -------------------Ejercicio completado el desafío------------------
+    letter = "F"  
+
+print(f"Your letter grade is: {letter}")
+
+if grade >= 70:
+    print("Congratulations! You passed the class!")
+else:
+    print("Stay focused and you'll get it next time!")
+# -------------------Ejercicio completando el desafío------------------
 signo = ""
-residuo = dato % 10
+residuo = grade % 10
 if residuo >= 7:
     signo = "+"
 elif residuo < 3:
@@ -40,8 +47,8 @@ elif residuo < 3:
 else:
     signo = ""
 
-print(f"Your letter grade is: {letra}{signo}")
-if dato >=70:
+print(f"Your letter grade is: {letter}{signo}")
+if grade >=70:
     print("Congratulations! you passed the class!")
 else:
     print("Stay focus and you'll get it next time")
