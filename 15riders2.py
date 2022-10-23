@@ -33,7 +33,7 @@ else:
             edad_acompañante = int(input("¿Que edad tiene tu acompañante "))
             altura_acompañante = int(input("¿Qué altura tiene tu acompañante "))
             if edad_acompañante >= 18 and altura_acompañante >=36 and altura_primera >=36:
-                print("Pueden subir")
+                print("Pueden subir nop")
             else:
                 if edad_acompañante >= 18 and altura_acompañante >=36 and altura_primera >=36 and edad_primera>=18:
                     print("Pueden subir")
